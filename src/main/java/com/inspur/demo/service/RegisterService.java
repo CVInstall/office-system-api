@@ -14,4 +14,8 @@ public class RegisterService {
     public Register userSearch (String username) {
         return registerMapper.userSearch(username);
     }
+    
+    public Register userSave (Register register) {
+        return registerMapper.userSave(register);
+    }
 }

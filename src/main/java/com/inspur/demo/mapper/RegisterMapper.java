@@ -7,4 +7,7 @@ import org.springframework.stereotype.Repository;
 @Repository
 public interface RegisterMapper {
     Register userSearch(String username);
+    
+    Register userSave(Register register);
 }
+
